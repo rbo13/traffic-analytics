@@ -2,6 +2,7 @@
 //   axios.get('/simulate')
 // })
 document.addEventListener('DOMContentLoaded', function(){ 
+  console.log('Simulating data...')
   axios.get('/simulate')
 }, false);
 
